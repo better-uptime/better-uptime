@@ -1,6 +1,6 @@
 ## What is this module ?
 
-This module help to 7/24 a project and you can uptime bot with this module easily!
+This module helps to uptime 7/24 a project easily.
 
 ## How can i use ?
 
@@ -8,7 +8,7 @@ This module help to 7/24 a project and you can uptime bot with this module easil
 const { Uptime } = require("better-uptime")
 
 var uptime = new Uptime({
-  url: "https://your.domain/",//website link
+  url: "https://your.domain/",//project link
   time: 1,//time
   time_type: 'minute',// you can use millisecond, minute, hour, day, week
   callback: "console.log('your.domain successfully uptime!')"//callback function action to be performed each time it uptimes
